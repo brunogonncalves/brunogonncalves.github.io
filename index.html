@@ -6,20 +6,21 @@ layout: default
 <!-- Main -->
 <div id="main">
     <section>
-        {% for post in site.posts limit:1 %}
-            <header class="major">
-                <h2>{{ post.title }}</h2>
-                <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            </header>
+        <header class="major">
+            <h2>Senior Developer</h2>
+            <p class="post-meta">Passionate about software development and nerd in his spare time.</p>
+        </header>
 
-            <section>
-                {{ post.content }}
-            </section>
-        {% endfor %}
+        <section>
+            Technology has always been part in my life, I decided to be a programmer when I got in 15 years of age when I created my first website. I'm a self-taught, and I love my job because I can learn new things every days for be better and I like to see the things happening when I write codes.
+            Today my focus is develop like a full-stack developer, I can develop web applications, back-end applications (RestFull API's) and mobile applications.
+            I have strong experience to develop in PHP and Javascript.
+            For develop mobile applications I use phonegap and ionic framework or Java for create native applications for android, for backend I use Laravel 5.1 or NodeJS and for front-end I use AngularJS, Sass/Compass, Gulp.
+        </section>
     </section>
     <section>
         <div class="row">
-            {% for post in site.posts offset:1 %}
+            {% for post in site.posts %}
 
                 <article class="{% cycle '6u', '6u$' %} 12u(small)">
                     <header>
