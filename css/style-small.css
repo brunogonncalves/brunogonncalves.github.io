@@ -3,75 +3,77 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 /* Basic */
+/* line 14, ../sass/style-small.scss */
+h1 {
+  font-size: 1.5em;
+}
 
-	h1 {
-		font-size: 1.5em;
-	}
+/* line 18, ../sass/style-small.scss */
+h2 {
+  font-size: 1.2em;
+}
 
-	h2 {
-		font-size: 1.2em;
-	}
-
-	h3 {
-		font-size: 1em;
-	}
+/* line 22, ../sass/style-small.scss */
+h3 {
+  font-size: 1em;
+}
 
 /* Section/Article */
+/* line 29, ../sass/style-small.scss */
+section.special, article.special {
+  text-align: center;
+}
 
-	section.special, article.special {
-		text-align: center;
-	}
-
-	header.major h2 {
-		font-size: 1.35em;
-	}
+/* line 36, ../sass/style-small.scss */
+header.major h2 {
+  font-size: 1.35em;
+}
 
 /* List */
-
-	ul.labeled-icons li {
-		padding-left: 2em;
-	}
-
-		ul.labeled-icons li h3 {
-			line-height: 1.75em;
-		}
+/* line 46, ../sass/style-small.scss */
+ul.labeled-icons li {
+  padding-left: 2em;
+}
+/* line 49, ../sass/style-small.scss */
+ul.labeled-icons li h3 {
+  line-height: 1.75em;
+}
 
 /* Header */
-
-	#header {
-		padding: 2.25em 1.5em;
-	}
-
-		#header h1 {
-			font-size: 1.35em;
-		}
+/* line 58, ../sass/style-small.scss */
+#header {
+  padding: 2.25em 1.5em;
+}
+/* line 61, ../sass/style-small.scss */
+#header h1 {
+  font-size: 1.35em;
+}
 
 /* Footer */
-
-	#footer {
-		padding: 2.25em 1.5em;
-	}
+/* line 68, ../sass/style-small.scss */
+#footer {
+  padding: 2.25em 1.5em;
+}
 
 /* Main */
-
-	#main {
-		padding: 2.25em 1.5em 0.25em 1.5em;
-	}
-
-		#main > section {
-			margin: 2.25em 0 0 0;
-			padding: 2.25em 0 0 0;
-		}
+/* line 74, ../sass/style-small.scss */
+#main {
+  padding: 2.25em 1.5em 0.25em 1.5em;
+}
+/* line 77, ../sass/style-small.scss */
+#main > section {
+  margin: 2.25em 0 0 0;
+  padding: 2.25em 0 0 0;
+}
 
 /* Poptrox */
-
-	.poptrox-popup {
-		border-radius: 0;
-	}
-
-		.poptrox-popup .nav-next:before,
-		.poptrox-popup .nav-previous:before {
-			margin-top: -1em;
-		}
+/* line 85, ../sass/style-small.scss */
+.poptrox-popup {
+  border-radius: 0;
+}
+/* line 90, ../sass/style-small.scss */
+.poptrox-popup .nav-next:before,
+.poptrox-popup .nav-previous:before {
+  margin-top: -1em;
+}

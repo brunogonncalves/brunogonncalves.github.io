@@ -5,17 +5,18 @@ layout: default
     <article>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
         <section>
             {{ content }}
         </section>
-        
+
         <footer>
             <div class="row">
-            {% if page.previous %}
-            
+                {% if page.previous %}
+
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
                     <header>
                         <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
@@ -29,10 +30,10 @@ layout: default
                         </ul>
                     </footer>
                 </article>
-            {% endif %}
-            
-            {% if page.next %}
-            
+                {% endif %}
+
+                {% if page.next %}
+
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
                     <header>
                         <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
@@ -46,10 +47,11 @@ layout: default
                         </ul>
                     </footer>
                 </article>
-            {% endif %}
+                {% endif %}
             </div>
         </footer>
 
     </article>
 
 </div>
+{% include footer.html %}
