@@ -1377,3 +1377,24 @@ body.is-touch .poptrox-popup .closer {
   text-decoration: none;
   color: #fff;
 }
+
+/* line 1170, ../sass/style.scss */
+.nav-language {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+/* line 1174, ../sass/style.scss */
+.nav-language li {
+  display: inline-block;
+  float: right;
+}
+/* line 1177, ../sass/style.scss */
+.nav-language li a:link {
+  text-decoration: none;
+}
+/* line 1181, ../sass/style.scss */
+.nav-language img {
+  width: 32px;
+  height: 32px;
+}

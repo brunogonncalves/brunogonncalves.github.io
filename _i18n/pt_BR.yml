@@ -1,0 +1,22 @@
+title:
+  about: Sobre Mim
+  blog: Blog
+  contact: Contato
+
+text:
+  about_my_name: Meu nome é
+  about_description_first: um desenvolvedor full-stack
+  about_description_last: que ama desenvolver aplicações Web, Restfull API's e Mobile.
+  about_title: Desenvolvedor Sênior
+  about_resume: Apaixonado por desenvolvimento de software e nerd nas horas vagas.
+  about: A tecnologia sempre fez parte da minha vida, eu decidi ser um programador aos 15 anos quando criei meu primeiro site. Eu sou um auto-didata, e amo meu trabalho porque posso aprender coisas novas todos os dias para ser melhor, eu gosto de ver as coisas que acontecem quando escrevo código.
+      Hoje meu foco é trabalhar full-stack, eu posso criar aplicações web, aplicações Restfull e aplicativos mobile.
+      Tenho muita experiência em PHP, Javascript e Java para desenvolvimento android.
+      Para o desenvolvimento de apps mobile eu utilizo phonegap e ionic framework ou java para aplicações nativas pra android, no backend eu uso PHP com Laravel 5.1 ou NodeJS, no front-end eu uso Angularjs, Sass/Compass e Gulp.
+  jesus: Toda honra e glória ao Senhor Jesus
+
+input:
+  name: "Seu Nome"
+  email: "Seu Email"
+  message: "Mensagem"
+  send: "Enviar Email"

@@ -8,9 +8,12 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+url: "http://brunogonncalves.github.io/ # the base hostname & protocol for your site
 github_username:      brunogonncalves  # Replace this with your GitHub username
-linkedin_username:    brunogonncalves  # Replace this with your LinkedIn username
+linkedin_username:    brunogoncalvesferreira  # Replace this with your LinkedIn username
+
+languages: ["pt_BR", "en", "pt_BR"]
+exclude_from_localizations: ["javascript", "images", "css"]
 
 # Build settings
 markdown: kramdown

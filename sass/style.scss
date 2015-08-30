@@ -1166,3 +1166,20 @@ body.is-touch {
     }
   }
 }
+
+.nav-language {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  li {
+    display: inline-block;
+    float: right;
+    a:link {
+      text-decoration: none;
+    }
+  }
+  img {
+    width: 32px;
+    height: 32px;
+  }
+}

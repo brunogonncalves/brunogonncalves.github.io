@@ -20,24 +20,28 @@
 <body id="top">
 
 <header id="header">
-    <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt=""/></a>
 
-    <h1>
-        <strong>I am <a href="/">Bruno Ferreira</a></strong>, a full-stack developer<br/>
-        that love's Web, Mobile and RestAPI applications.<br/></a>
-    </h1>
+    <nav>
+        <ul class="nav-language">
+            <li><a href="{{site.baseurl_root}}/en"><img src="/images/flag_usa.png" alt="English"/></a></li>
+            <li><a href="/"><img src="/images/flag_brazil.png" alt="Portuguese"/></a></li>
+        </ul>
+    </nav>
+
+    <a href="{{ site.baseurl }}" class="image avatar"><img src="/images/avatar.jpg" alt=""/></a>
+
+    <h1>{% t text.about_my_name %} <strong><a href="{{ site.baseurl }}">Bruno Ferreira</a></strong>, {% t text.about_description_first %}<br/>
+        {% t text.about_description_last %}<br/></a></h1>
 
     <nav>
         <ul class="nav-sidebar">
-            <li class="nav-sidebar-item"><a href="/">Orçamento</a></li>
-            <li class="nav-sidebar-item"><a href="/blog">Blog</a></li>
-            <li class="nav-sidebar-item"><a href="/about">Sobre Mim</a></li>
+            <li class="nav-sidebar-item"><a href="{{ site.baseurl }}/contact">{% t title.contact %}</a></li>
+            <li class="nav-sidebar-item"><a href="{{ site.baseurl }}/blog">{% t title.blog %}</a></li>
+            <li class="nav-sidebar-item"><a href="{{ site.baseurl }}/about">{% t title.about %}</a></li>
         </ul>
     </nav>
 
 </header>
-
-
 {{ content }}
 
 {% include footer.html %}

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div id="main">
+    <section>
+        <form action="//formspree.io/brunogonncalves@icloud.com" method="POST">
+
+            <div class="form-group">
+                <label for="name">{% t input.name %}</label>
+                <input type="text" name="name" id="name" placeholder="{% t input.name %}">
+            </div>
+
+            <div class="form-group">
+                <label for="email">{% t input.email %}</label>
+                <input type="email" name="_replyto" id="email" placeholder="{% t input.email %}">
+            </div>
+
+            <div class="form-group">
+                <label for="message">{% t input.message %}</label>
+                <textarea name="message" id="message" rows="6" placeholder="{% t input.message %}"></textarea>
+            </div>
+
+            <input type="submit" value="{% t input.send %}">
+        </form>
+    </section>
+</div>
