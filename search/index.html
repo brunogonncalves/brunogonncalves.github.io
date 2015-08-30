@@ -42,13 +42,21 @@
     </nav>
 
 </header>
-<div id="main">
-    <section>
-        <div class="row">
-            
-        </div>
-    </section>
+<div id="results">
+
 </div>
+
+<script>
+    var JEKYLL_POSTS = [];
+    
+</script>
+<script src="/js/search.js"></script>
+<script>
+new jekyllSearch({
+    selector: "#results",
+    properties: ["title", "content"]
+});
+</script>
 
 <!-- Footer -->
 <footer id="footer">
