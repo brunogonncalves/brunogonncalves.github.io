@@ -15,5 +15,8 @@ linkedin_username:    brunogoncalvesferreira  # Replace this with your LinkedIn 
 languages: ["pt_BR", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
+gems:
+- jekyll-multiple-languages-plugin
+
 # Build settings
 markdown: kramdown
